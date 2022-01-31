@@ -234,25 +234,11 @@ The validation of model helps in understanding how the model fit using training 
 
 R2 is a measure of how well a model predicts the target variables. The error is calculated using the RMSE and MAE methods. As can be seen, our model has good accuracy and a low bias/variance trade-off. We can conclude from this analysis that our model is performing well.
 
+MAE of Train:  2.080843707880316
+MAE of Test:  2.1169401200212294
+RMSE of Train:  3.747507890233903
+RMSE of Test:  3.813061095172934
 
-*Table-7: Statistics of Predicted variable (Taxi fare)*
-| Statistic          | Training Dataset | Testing Dataset |
-|--------------------|------------------|-----------------|
-|                    | Amount           | Amount          |
-| count              | 39155            | 9789            |
-| mean               | 11.26            | 11.21           |
-| std                | 8.10             | 8.00            |
-| min                | 5.31             | 5.31            |
-| Q1                 | 6.85             | 6.85            |
-| Q2                 | 8.78             | 8.85            |
-| Q3                 | 12.68            | 12.57           |
-| max                | 50.88            | 50.88           |
-| Coeff Of variation | 0.72             | 0.71            |
-
-
-*Table-8: Model Statistics of Training and Testing dataset*
-| Model Parameter | Training Dataset | Testing Dataset |
-|-----------------|------------------|-----------------|
-| R square(R2)    | 0.8277           | 0.8211          |
-| MAE             | 2.0792           | 2.1125          |
-| RMSE            | 3.7211           | 3.7755          |
+Train R2 0.8252630541985462
+Test R2 0.8174909999630328
+ 
